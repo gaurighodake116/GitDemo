@@ -34,6 +34,7 @@ public class CheckBox1 {
 		System.out.println("I did some changes.");
 		System.out.println("git should recognize them now.");
 		System.out.println("this was for git practice.");
+		System.out.println("2nd commit: this was for git practice.");
 		
 
 	}
