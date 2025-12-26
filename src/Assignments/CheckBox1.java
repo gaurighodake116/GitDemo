@@ -31,7 +31,9 @@ public class CheckBox1 {
 		//get the Count of number of check boxes present in the page
 		//input[@type='checkbox']
 		System.out.println(driver.findElements(By.xpath("//input[@type='checkbox']")).size());
-		
+		System.out.println("I did some changes.");
+		System.out.println("git should recognize them now.");
+		System.out.println("this was for git practice.");
 		
 
 	}
