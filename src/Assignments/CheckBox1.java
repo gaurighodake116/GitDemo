@@ -45,5 +45,10 @@ public class CheckBox1 {
 	{
 		System.out.println("Branching check: created develop branch.");
 	}
+	@Test
+	public void checkGit1()
+	{
+		System.out.println("Branching check 2: created develop branch.");
+	}
 
 }
