@@ -42,6 +42,6 @@ public class FillFormDropdown2 {
 		// --> Click Submit
 		driver.findElement(By.cssSelector("input[value='Submit']")).click();
 		System.out.println(driver.findElement(By.xpath("//div[contains(@class,'alert-success')]")).getText());
-
+		System.out.println("2nd commit: this was for git practice.");
 	}
 }
