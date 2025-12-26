@@ -6,6 +6,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
+import org.testng.annotations.Test;
 
 public class CheckBox1 {
 
@@ -34,8 +35,12 @@ public class CheckBox1 {
 		System.out.println("I did some changes.");
 		System.out.println("git should recognize them now.");
 		System.out.println("this was for git practice.");
-		
 
+	}
+	@Test
+	public void checkGit()
+	{
+		System.out.println("Branching check: created develop branch.");
 	}
 
 }
